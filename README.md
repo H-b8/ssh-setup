@@ -13,25 +13,31 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 eval "$(ssh-agent -s)"
 ```
+
+OPEN FILE
 ```
 open ~/.ssh/config
 ```
 
+IF FILE DOES NOT EXIST
 ```
 > The file /Users/you/.ssh/config does not exist.
 touch ~/.ssh/config
 ```
 
+OPEN FILE
 ```
 open ~/.ssh/config
 ```
-PASTE: 
-
+PASTE INTO TEXT EDITOR: 
+```
 Host *  
   AddKeysToAgent yes  
   UseKeychain yes  
   IdentityFile ~/.ssh/id_ed25519  
+```
 
+ADD TO KEYCHAIN
 ```
 ssh-add -K ~/.ssh/id_ed25519
 ```
