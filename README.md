@@ -10,6 +10,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 > Enter same passphrase again: [Type passphrase again]
 ```
 
+START THE SSH AGENT IN THE BACKGROUND
 ```
 eval "$(ssh-agent -s)"
 ```
