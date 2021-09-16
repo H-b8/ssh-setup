@@ -70,7 +70,6 @@ FOLLOW THESE INSTRUCTIONS AND PASTE IN COPIED KEY FROM ABOVE STEP
 https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
 ---
-
 ### CONNECT TO YOUR REPO
 
 ON GITHUB:  
