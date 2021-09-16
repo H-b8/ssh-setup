@@ -1,14 +1,22 @@
 ### GENERATING SSH KEYS
 
-BEGIN AT ROOT FOLDER (~)
+IN YOUR TERMINAL, BEGIN AT ROOT FOLDER (~)
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
+WHEN YOU SEE...  
+> Enter a file in which to save the key (/Users/you/.ssh/id_ed25519):* 
 ```
-> Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): [Press enter]
-> Enter passphrase (empty for no passphrase): [Type a passphrase, or press enter to skip]
-> Enter same passphrase again: [Type passphrase again]
+[Press enter]
+```
+> Enter passphrase (empty for no passphrase):
+```
+[Type a passphrase, or press enter to skip]
+```
+> Enter same passphrase again:
+```
+[Type passphrase again]
 ```
 
 START THE SSH AGENT
