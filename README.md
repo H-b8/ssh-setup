@@ -1,5 +1,6 @@
 #### GENERATING SSH KEYS
 
+BEGIN AT ROOT FOLDER (~)
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
@@ -50,4 +51,5 @@ COPY PUBLIC KEY
 ```
 pbcopy < ~/.ssh/id_ed25519.pub
 ```
+FOLLOW INSTRUCTIONS WHILE ON GITHUB WEBSITE
 https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
