@@ -35,6 +35,7 @@ Host *
 ```
 ssh-add -K ~/.ssh/id_ed25519
 ```
+---
 
 #### ADDING SSH TO GITHUB
 
