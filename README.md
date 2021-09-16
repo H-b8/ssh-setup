@@ -59,7 +59,8 @@ https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-
 
 #### CONNECT TO YOUR REPO
 
-ON GITHUB: FOLLOW THESE INSTRUCTIONS TO SET UP A REPO
+ON GITHUB: 
+FOLLOW THESE INSTRUCTIONS TO SET UP A REPO
 https://docs.github.com/en/get-started/quickstart/create-a-repo
 
 IN YOUR TERMINAL:
