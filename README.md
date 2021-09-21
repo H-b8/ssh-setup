@@ -81,7 +81,7 @@ IN YOUR TERMINAL:
 cd into your project folder
 ```
 ```
-git remote add origin [your ssh url]
+git remote set-url origin [your ssh url]
 git branch -M main
 git add .
 git commit -m "your first commit"
