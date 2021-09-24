@@ -56,17 +56,17 @@ ssh-add -K ~/.ssh/id_ed25519
 
 ### ADDING SSH TO GITHUB
 
-COPY PUBLIC KEY **(MAC)**
+RUN THIS LINE IN TERMINAL TO COPY PUBLIC KEY TO CLIPBOARD **(MAC)**
 ```
 pbcopy < ~/.ssh/id_ed25519.pub
 ```
-COPY PUBLIC KEY **(WINDOWS)**
+RUN THIS LINE IN TERMINAL TO COPY PUBLIC KEY TO CLIPBOARD **(WINDOWS)**
 ```
 clip < ~/.ssh/id_ed25519.pub
 ```
 
 ON GITHUB:  
-FOLLOW THESE INSTRUCTIONS AND PASTE IN COPIED KEY FROM ABOVE STEP  
+FOLLOW THESE INSTRUCTIONS AND PASTE IN COPIED KEY FROM ABOVE STEP (CMD/CTRL + V)  
 https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
 ---
